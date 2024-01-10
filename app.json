@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Oversize Calculator",
+    "displayName": "Oversize Calculator",
+    "slug": "glassoversizecalculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.janak.devansh.goc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.janak.devansh.goc",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b11d6147-1feb-4cd6-8438-d6eac1ed0908"
+      }
+    },
+    "owner": "janakdevansh",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
